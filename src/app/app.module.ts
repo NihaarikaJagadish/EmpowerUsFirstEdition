@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
 
+
 export function playerFactory() {
   return player;
 }
@@ -15,7 +16,7 @@ export function playerFactory() {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
